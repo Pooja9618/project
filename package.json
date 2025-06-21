@@ -1,0 +1,30 @@
+{
+  "name": "shopping-project",
+  "version": "1.0.0",
+  "description": "A TypeScript project for calculating shopping cart price.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.test.ts",
+    "test-coverage": "nyc npm run test"
+  },
+  "dependencies": {
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "chai": "^4.0.0",
+    "ts-node": "^10.0.0",
+    "nyc": "^15.0.0",
+    "@types/mocha": "^9.0.0",
+    "@types/chai": "^4.0.0",
+    "@types/node": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/shopping-cart-project.git"
+  },
+  "keywords": [],
+  "author": "shopping cart",
+  "license": "MIT"
+}
